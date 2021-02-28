@@ -10,6 +10,7 @@ This service is an example about how to use flyway with Spring Boot to make SQL 
 = How does it run?
 
 First off is run a postgresql with docker after tha lets go to launch a Spring Boot application.
+If you want more information you can take a look into: https://refactorizando.com/migracion-sql-flyway-spring-boot
 
 == Run docker
 
