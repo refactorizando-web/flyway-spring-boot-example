@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: postgresql-example
+  flyway:
+    enabled: true
+    locations: classpath:/db/scripts/migration
+    schemas: car
+  data:
+    jpa.repositories.enabled: true
+  datasource:
+    initialization-mode: always
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: postgres
+    continueOnError: true
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: none
+      use-new-id-generator-mappings: true
+      generate-ddl: true
+    properties:
+      hibernate:
+        jdbc.lob.non_contextual_creation: true
+        show_sql: true
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+      show-sql: true
