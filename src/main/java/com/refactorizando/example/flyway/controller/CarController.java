@@ -1,7 +1,7 @@
-package com.refactorizando.example.postgresql.controller;
+package com.refactorizando.example.flyway.controller;
 
-import com.refactorizando.example.postgresql.entity.Car;
-import com.refactorizando.example.postgresql.service.CarService;
+import com.refactorizando.example.flyway.entity.Car;
+import com.refactorizando.example.flyway.service.CarService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.refactorizando.example.postgresql.service;
+package com.refactorizando.example.flyway.service;
 
-import com.refactorizando.example.postgresql.entity.Car;
-import com.refactorizando.example.postgresql.repository.CarRepository;
+import com.refactorizando.example.flyway.entity.Car;
+import com.refactorizando.example.flyway.repository.CarRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.refactorizando.example.postgresql.entity;
+package com.refactorizando.example.flyway.entity;
 
 import lombok.Getter;
 import lombok.Setter;
